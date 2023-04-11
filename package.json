@@ -1,0 +1,27 @@
+{
+  "name": "hero-ai-package-creator",
+  "version": "1.0.0",
+  "description": "Create complete NPM packages quickly and easily with the power of AI. The hero-ai-package-creator generates all necessary files and configurations for your NPM package, saving you time and effort in the development process.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hero-page/hero-ai-package-creator.git"
+  },
+  "keywords": [
+    "hero",
+    "hero",
+    "page",
+    "npm",
+    "ai",
+    "gpt"
+  ],
+  "author": "Sam Chahine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hero-page/hero-ai-package-creator/issues"
+  },
+  "homepage": "https://github.com/hero-page/hero-ai-package-creator#readme"
+}
