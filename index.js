@@ -619,6 +619,14 @@ async function creator(options) {
         throw new Error('🚨 Oops! 🚨 Both config and ideas parameters must be defined! 🤖');
         return;
     } else {
+        const directories = ["./schemas", "./hero_modules", "./published_hero_modules"]
+
+        for (const dir of folders) {
+            if (!fs.existsSync(dir)) {
+                fs.mkdirSync(dir);
+            }
+        }
+
         for (const idea of options.ideas) {
             await generateNPMPackageIdeasWithRetry(options.config, idea);
         }        
