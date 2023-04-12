@@ -1,6 +1,6 @@
 {
   "name": "@hero-page/hero-ai-package-creator",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Create complete NPM packages quickly and easily with the power of AI. The hero-ai-package-creator generates all necessary files and configurations for your NPM package, saving you time and effort in the development process.",
   "main": "index.js",
   "scripts": {

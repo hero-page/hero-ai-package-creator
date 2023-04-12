@@ -473,11 +473,15 @@ function modifyPackageJson(directory) {
     const packageJsonPath = path.join(directory, "package.json");
     let packageJson = JSON.parse(fs.readFileSync(packageJsonPath));
 
+    // Ensure packageJson has a scripts property
+    if (!packageJson.scripts) {
+        packageJson.scripts = {};
+    }
+
     packageJson.scripts.test = "node tests.js";
 
     fs.writeFileSync(packageJsonPath, JSON.stringify(packageJson, null, 2));
 }
-
 
 function getDescriptionFromPackageJson(dir) {
     try {
