@@ -449,18 +449,17 @@ function generateTestsFile(directory) {
 
     // Get the names of the tests from the filenames
     const testRequireStatements = testFiles.map(file => {
-        const pathToTest = `./${path.join(testsDirectory, file)}`;
-        console.log(pathToTest);
-        const testModule = require(pathToTest);
+        const relativePathToTest = `./${path.join("tests", file)}`; // Update this line
+        console.log(relativePathToTest);
+        const testModule = require(path.join(testsDirectory, file)); // Update this line
         const testKeys = Object.keys(testModule);
         const testKey = testKeys[0];
-        return `const {${testKey}} = require('./tests/${file}');`;
+        return `const {${testKey}} = require('${relativePathToTest}');`;
     }).join("\n");
 
     // Generate the test calls for the tests
     const testCalls = testFiles.map(file => {
-        const pathToTest = `./${path.join(testsDirectory, file)}`;
-        const testModule = require(pathToTest);
+        const testModule = require(path.join(testsDirectory, file)); // Update this line
         const testKeys = Object.keys(testModule);
         const testKey = testKeys[0];
         return `${testKey}();`;
@@ -469,6 +468,7 @@ function generateTestsFile(directory) {
     // Write the tests to the tests.js file
     fs.writeFileSync(path.join(directory, "tests.js"), `${testRequireStatements}\n\n${testCalls}`);
 }
+
 
 function modifyPackageJson(directory) {
     const packageJsonPath = path.join(directory, "package.json");
