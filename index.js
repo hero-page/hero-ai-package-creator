@@ -621,7 +621,7 @@ async function creator(options) {
     } else {
         const directories = ["./schemas", "./hero_modules", "./published_hero_modules"]
 
-        for (const dir of folders) {
+        for (const dir of directories) {
             if (!fs.existsSync(dir)) {
                 fs.mkdirSync(dir);
             }
