@@ -32,6 +32,11 @@ Here's a non-techy visual of which prompts were used to create this magical crea
 1. [Prompts](https://hero.page/samir/prompts-for-hero-ai-package-creator/prompts)
 2. [Format & Linting Rules for Code Output from GPT](https://hero.page/samir/prompts-for-hero-ai-package-creator/function-writing-prompt-rules)
 
+#### Silly Errors from AI
+I've seen that _sometimes_, AI is over-confident in its ability to write proper regex, and ends up corrupting a file.
+
+Worst case scenario is the script will catch this & stop (everything is tested at the end automatically), and you could either decided to fix the function yourself, or create another "simpler" package. Up to you!
+
 ## Installation
 
 ```bash
