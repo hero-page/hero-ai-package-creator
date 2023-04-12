@@ -1,0 +1,12 @@
+{
+    "AUTHOR_NAME": "Sam Chahine",
+    "AUTHOR_URL": "https://github.com/kingmeers",
+    "AUTHOR_ORG_NAME": "Hero",
+    "AUTHOR_ORG_URL": "https://hero.page",
+    "GITHUB_USERNAME": "hero-page",
+    "GITHUB_OWNER_ID": "",
+    "REPO_VISIBILITY": "PUBLIC",
+    "REPO_PREFIX": "hero",
+    "SHOULD_PUBLISH_TO_NPM": true,
+    "GPT4_KEY": ""
+}

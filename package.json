@@ -1,6 +1,6 @@
 {
   "name": "hero-ai-package-creator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create complete NPM packages quickly and easily with the power of AI. The hero-ai-package-creator generates all necessary files and configurations for your NPM package, saving you time and effort in the development process.",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/hero-page/hero-ai-package-creator/issues"
   },
-  "homepage": "https://github.com/hero-page/hero-ai-package-creator#readme"
+  "homepage": "https://github.com/hero-page/hero-ai-package-creator#readme",
+  "dependencies": {
+    "jsdoc": "^4.0.2",
+    "openai": "^3.2.1"
+  }
 }
