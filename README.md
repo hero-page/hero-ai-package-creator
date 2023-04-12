@@ -13,7 +13,7 @@ Hi! I'm [Sam Chahine](https://hero.page/samir), and I'm pretty obsessed with pus
 - [License](#license)
 
 ## Comment
-So to use this package, you'll need an API key for [GPT4](https://openai.com/waitlist/gpt-4-api). I'm not sure when they waitlist format will end, and everyone will gain access. But till then, I'm happy to create any AI packages you recommend 😊
+So to use this package, you'll need an API key for [GPT4](https://openai.com/waitlist/gpt-4-api). I'm not sure when the waitlist format will end, and everyone will gain access. But till then, I'm happy to create any AI packages you recommend 😊
 
 If you wanna chat, I'm on [Twitter](https://twitter.com/HeroMeers), [LinkedIn](https://www.linkedin.com/in/meersc/), [Hero](https://hero.page/samir) (most of my work is on Hero)
 
