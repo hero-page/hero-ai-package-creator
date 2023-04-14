@@ -32,7 +32,8 @@ async function callGPT4WithRetry(prompt, config) {
         try {
             response = await callGPT4({
                 prompt: prompt,
-                key: config.GPT4_KEY
+                key: config.GPT_KEY,
+                model: config.GPT_MODEL
             });
         } catch (error) {
             console.log("Failed, but trying again" + error);

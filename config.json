@@ -8,5 +8,6 @@
     "REPO_VISIBILITY": "PUBLIC",
     "REPO_PREFIX": "hero",
     "SHOULD_PUBLISH_TO_NPM": true,
-    "GPT4_KEY": ""
+    "GPT_MODEL": "gpt-4",
+    "GPT_KEY": ""
 }

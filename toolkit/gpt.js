@@ -16,7 +16,7 @@ async function callGPT4(options) {
 
     try {
         const completion = await openai.createChatCompletion({
-            model: "gpt-4",
+            model: options.model,
             messages: [{role: "user", content: options.prompt}],
         });
         return {

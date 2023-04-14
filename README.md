@@ -64,7 +64,8 @@ const config = {
     "REPO_VISIBILITY": "PUBLIC",
     "REPO_PREFIX": "hero",
     "SHOULD_PUBLISH_TO_NPM": false,
-    "GPT4_KEY": "GPT-4-KEY"
+    "GPT_MODEL": "gpt-4", // Can be any model for which you have access
+    "GPT_KEY": "GPT-KEY" // Must be a key that corresponds to above model's access
 };
 
 const ideas = [
@@ -97,7 +98,8 @@ You can customize the behavior of this package by providing a configuration obje
   "REPO_VISIBILITY": "PUBLIC",
   "REPO_PREFIX": "hero",
   "SHOULD_PUBLISH_TO_NPM": false,
-  "GPT4_KEY": "GPT-4-KEY"
+  "GPT_MODEL": "gpt-4", // Can be any model for which you have access
+  "GPT_KEY": "GPT-KEY"
 }
 ```
 

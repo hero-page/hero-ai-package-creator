@@ -1,6 +1,6 @@
 {
   "name": "@hero-page/hero-ai-package-creator",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Create complete NPM packages quickly and easily with the power of AI. The hero-ai-package-creator generates all necessary files and configurations for your NPM package, saving you time and effort in the development process.",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,12 @@
     "page",
     "npm",
     "ai",
-    "gpt"
+    "gpt",
+    "package creator",
+    "auto gpt",
+    "ai agent",
+    "gpt agent",
+    "gpt4"
   ],
   "author": "Sam Chahine",
   "license": "MIT",
